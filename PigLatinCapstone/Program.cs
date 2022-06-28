@@ -3,7 +3,7 @@
    
     //prompt user and take input    
     Console.WriteLine("Please enter a word.");
-    string response = Console.ReadLine().ToLower().Trim();
+    string response = Console.ReadLine().Trim();
 
 
     bool isIncorrectInput = "!@#$%^^&*()1234567890".IndexOf(response) >= 0;
